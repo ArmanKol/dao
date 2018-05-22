@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ddb0f91-25c4-469e-a5e0-2a27f905d471" name="Default" comment="" />
+    <list default="true" id="6ddb0f91-25c4-469e-a5e0-2a27f905d471" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAO/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAO/src/p2/OVChipkaartOracleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAO/src/p2/OVChipkaartOracleDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAO/src/p2/ReizigerOracleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAO/src/p2/ReizigerOracleDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAO/src/p2/ServiceMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAO/src/p2/ServiceMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/OVChipkaartOracleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/OVChipkaartOracleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/ReizigerOracleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/ReizigerOracleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2/ServiceMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2/ServiceMain.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServiceMain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ServiceMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p2/ServiceMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="115">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,8 +36,8 @@
       <file leaf-file-name="OVChipkaartDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p2/OVChipkaartDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="184">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -36,8 +45,8 @@
       <file leaf-file-name="OVChipkaartOracleDaoImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p2/OVChipkaartOracleDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1042">
-              <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+            <state relative-caret-position="230">
+              <caret line="25" column="84" lean-forward="true" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,11 +54,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reiziger.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DatabaseError.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/ojdbc6.jar!/oracle/jdbc/driver/DatabaseError.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9890">
+              <caret line="441" selection-start-line="441" selection-end-line="441" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLStateMapping.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/ojdbc6.jar!/oracle/jdbc/driver/SQLStateMapping.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reiziger.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/p2/Reiziger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+            <state relative-caret-position="168">
+              <caret line="76" column="193" lean-forward="true" selection-start-line="76" selection-start-column="193" selection-end-line="76" selection-end-column="193" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,8 +87,8 @@
       <file leaf-file-name="OVChipkaart.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p2/OVChipkaart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
-              <caret line="49" column="146" selection-start-line="49" selection-start-column="146" selection-end-line="49" selection-end-column="146" />
+            <state relative-caret-position="92">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
                 <element signature="e#516#517#0" expanded="true" />
                 <element signature="e#550#551#0" expanded="true" />
@@ -84,8 +111,8 @@
       <file leaf-file-name="ReizigerOracleDaoImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p2/ReizigerOracleDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+            <state relative-caret-position="184">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -99,24 +126,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReizigerOracleDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/p1/ReizigerOracleDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OracleBaseDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/p2/OracleBaseDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -125,6 +134,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -143,12 +155,12 @@
         <option value="$PROJECT_DIR$/src/p3/ReizigerDao.java" />
         <option value="$PROJECT_DIR$/src/p2/Adres.java" />
         <option value="$PROJECT_DIR$/src/p2/OracleBaseDao.java" />
-        <option value="$PROJECT_DIR$/src/p2/ReizigerOracleDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/p2/OVChipkaartDao.java" />
-        <option value="$PROJECT_DIR$/src/p2/Reiziger.java" />
         <option value="$PROJECT_DIR$/src/p2/OVChipkaart.java" />
         <option value="$PROJECT_DIR$/src/p2/OVChipkaartOracleDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/p2/ReizigerOracleDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/p2/ServiceMain.java" />
+        <option value="$PROJECT_DIR$/src/p2/Reiziger.java" />
       </list>
     </option>
   </component>
@@ -159,8 +171,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-45" />
-    <option name="y" value="260" />
+    <option name="x" value="335" />
+    <option name="y" value="70" />
     <option name="width" value="1670" />
     <option name="height" value="955" />
   </component>
@@ -168,44 +180,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DAO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DAO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DAO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DAO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DAO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DAO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="p1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DAO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DAO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="p2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DAO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DAO" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -320,42 +295,47 @@
       <workItem from="1525704198196" duration="1074000" />
       <workItem from="1525721096120" duration="17000" />
       <workItem from="1526298872680" duration="5930000" />
-      <workItem from="1526333348433" duration="474000" />
+      <workItem from="1526333348433" duration="1245000" />
+      <workItem from="1526371410610" duration="2259000" />
+      <workItem from="1526990514125" duration="57000" />
+      <workItem from="1526991112451" duration="2928000" />
+      <workItem from="1526995859623" duration="103000" />
+      <workItem from="1526996229729" duration="374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13329000" />
+    <option name="totallyTimeSpent" value="19821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="JRebel Executor" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3245997" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.051006712" />
-      <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32896653" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3245997" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1669279" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -371,26 +351,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/p2/OVChipkaart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="49" column="146" selection-start-line="49" selection-start-column="146" selection-end-line="49" selection-end-column="146" />
-          <folding>
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p2/ReizigerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/p2/ReizigerOracleDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
@@ -708,34 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/p2/Reiziger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p2/OVChipkaartDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/p1/ServiceMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p2/ReizigerOracleDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -746,10 +682,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/ojdbc6.jar!/oracle/jdbc/driver/DatabaseError.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9890">
+          <caret line="441" selection-start-line="441" selection-end-line="441" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/p2/OVChipkaart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="49" column="146" selection-start-line="49" selection-start-column="146" selection-end-line="49" selection-end-column="146" />
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <element signature="e#516#517#0" expanded="true" />
             <element signature="e#550#551#0" expanded="true" />
@@ -759,10 +702,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/ojdbc6.jar!/oracle/jdbc/driver/SQLStateMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p2/OVChipkaartDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/p2/OVChipkaartOracleDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1042">
-          <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+        <state relative-caret-position="230">
+          <caret line="25" column="84" lean-forward="true" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -771,8 +728,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/p2/ServiceMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="115">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p2/ReizigerOracleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p2/Reiziger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="76" column="193" lean-forward="true" selection-start-line="76" selection-start-column="193" selection-end-line="76" selection-end-column="193" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

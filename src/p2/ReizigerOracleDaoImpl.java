@@ -6,19 +6,27 @@ import java.util.List;
 
 public class ReizigerOracleDaoImpl extends OracleBaseDao implements ReizigerDao {
 
-    public ReizigerOracleDaoImpl() throws SQLException {
-        getConnection();
+    public ReizigerOracleDaoImpl() {
+        try {
+            getConnection();
+        } catch (SQLException sqle){
+            sqle.printStackTrace();
+        }
     }
 
     @Override
     public List<Reiziger> findAll(){
         ArrayList<Reiziger> reizigers = new ArrayList<>();
         try {
+            OVChipkaartOracleDaoImpl ODAO = new OVChipkaartOracleDaoImpl();
             String query = "SELECT * FROM reiziger";
             Statement statement = connection.createStatement();
             ResultSet result = statement.executeQuery(query);
             while (result.next()){
                 Reiziger reiziger = new Reiziger(result.getInt(1), result.getString(2), result.getString(3), result.getString(4), result.getDate(5));
+                for (OVChipkaart ov : ODAO.findByReiziger(reiziger)){
+                    reiziger.getOvchipkaarten().add(ov);
+                }
                 reizigers.add(reiziger);
             }
             result.close();

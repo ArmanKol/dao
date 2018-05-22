@@ -9,24 +9,27 @@ import java.util.List;
 
 public class OVChipkaartOracleDaoImpl extends OracleBaseDao implements OVChipkaartDao {
 
+    private static final ReizigerOracleDaoImpl RDAO = new ReizigerOracleDaoImpl();
+
     public OVChipkaartOracleDaoImpl() throws SQLException {
         getConnection();
     }
 
     @Override
-    public List<OVChipkaart> findAll(){
+    public List<OVChipkaart> findAll() {
         ArrayList<OVChipkaart> ovChipkaarten = new ArrayList<>();
         try {
-            String query = "SELECT * FROM ov_chipkaart";
+            String query = "SELECT * FROM ov_chipkaart o, reiziger r WHERE o.reizigerid = r.reizigerid";
             Statement statement = connection.createStatement();
             ResultSet result = statement.executeQuery(query);
-            while (result.next()){
-                OVChipkaart ovChipkaart = new OVChipkaart(result.getInt(1), result.getDate(2), result.getInt(3), result.getDouble(4), null);
+            while (result.next()) {
+                Reiziger reiziger = new Reiziger(result.getInt(6), result.getString(7), result.getString(8), result.getString(9), result.getDate(10));
+                OVChipkaart ovChipkaart = new OVChipkaart(result.getInt(1), result.getDate(2), result.getInt(3), result.getDouble(4), reiziger);
                 ovChipkaarten.add(ovChipkaart);
             }
             result.close();
             statement.close();
-        } catch (SQLException se){
+        } catch (SQLException se) {
             se.printStackTrace();
         }
         return ovChipkaarten;
